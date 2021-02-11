@@ -157,14 +157,10 @@
  function mousePressed()
  {
 
-   //console.log("this functon is working");
-
+   if(gamestate !== "end"){
   particle = new Particle(mouseX, 10, 10);
 
        count++;
-
-       //console.log(count);
-
-  
+   }
 
 }
